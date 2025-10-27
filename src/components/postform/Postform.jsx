@@ -90,7 +90,7 @@ function Postform({post}) {
 
 
 <div className="right" >
-    <h2 style={{textAlign:'center',width:"100%"}}>Fill those information for post</h2>
+    <h2 style={{textAlign:'center',width:"100%"}}>Fill all the information for post</h2>
     
             {/* input  */}
 <div className="pstinp">
