@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding-top: 0;
+}
+
+.nav{
+    height: 12vh;
+    width: 100vw;
+    font-family: arial;
+    font-size: 1.2vw;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.navlogo{
+height: 100%;
+width: 7vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navname{
+height: 100%;
+width: 30vw;
+font-family: arial;
+font-weight: 600;
+color:  rgb(255, 153, 0);
+display: flex;
+font-size: 3.5vw;
+align-items: center;
+
+}
+.navbtn{
+height: 100%;
+width: 55vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 10px;
+}
+.btn{
+    color:black;
+}
+.btn:hover{
+    color: #bababa;
+}
+
+@media (max-width:480px) {
+    .nav{
+        height: 10vh;
+        width: 100vw;
+        font-size: 3vw;
+        display: flex;
+        
+    }
+    .navlogo{
+        height: 100%;
+        width: 17vw;
+    }
+    .navname{
+        font-size: 4.5vw;
+    }
+    .navbtn{
+        display: flex;
+        gap: 0px;
+        font-size: .8em;
+    }
+}

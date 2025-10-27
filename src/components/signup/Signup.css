@@ -1,0 +1,93 @@
+.sgncont{
+    height: 85vh;
+    width: 100vw;
+    background-color: rgb(230,230,230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.both{
+    height: 85%;
+    width: 60%;
+    display: flex;
+}
+.leftsgn{
+    height: 100%;
+    width: 70%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-image: url(signup.jpg);
+    background-size: cover;
+}
+.mainsgn{
+    height: 100%;
+    width: 50%;
+     border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    /* padding-top: 10px; */
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.sgnlogo{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.continp{
+height: 85%;
+width: 99%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 4vh;
+}
+.formsgn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+.parasgn{
+   width: 90%;
+   text-align: center;
+   word-break:normal;
+   display: flex;
+   align-items: center;
+}
+
+@media (max-width:480px) {
+    .sgncont{
+        height: max-content;
+        width: 100vw;
+        padding-top: 5vh;
+    }
+    .both{
+        height: 90%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftsgn{
+        width: 100%;
+        border-radius: 12px 12px 0 0;
+        display: flex;
+        color: rgb(255, 255, 255);
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainsgn{
+        width: 100%;
+        border-radius: 0 0 12px 12px;
+    }
+}

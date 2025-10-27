@@ -1,0 +1,27 @@
+.inp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.label{
+    display: inline-block;
+    font-size: 1.1rem;
+}
+.input{
+    height: 3vh;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.input:focus{
+    outline: none;
+}
+.input:focus::placeholder{
+    color: transparent;
+}

@@ -1,0 +1,20 @@
+button{
+    height: 40px;
+    border: none;
+    font-size: 100%;
+    font-weight: 500;
+    border-radius: 99px;
+    background-color:#3674B5;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color:#7ba3cf;
+ 
+}
+
+@media (max-width:480px) {
+   button:hover{
+    background-color:#7ba3cf;
+ 
+} 
+}

@@ -1,0 +1,35 @@
+
+.imagepost{
+    height:30%;
+    width:30%;
+}
+.cntntpost{
+    height: max-content;
+    width: 95%;
+    border: 1px solid black;
+    text-align:center;
+    padding:20px;
+    font-size:1.2rem;
+    font-family:arial;
+    overflow-wrap:break-word;
+    word-Break:break-word;
+
+}
+@media (max-width:480px) {
+   .imagepost{
+    height:40%;
+    width:40%;
+} 
+.cntntpost{
+    height: max-content;
+    width: 80%;
+    border: 1px solid black;
+    text-align:center;
+    padding:20px;
+    font-size:1.2rem;
+    font-family:arial;
+    overflow-wrap:break-word;
+    word-Break:break-word;
+
+}
+}
