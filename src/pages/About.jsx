@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <div style={{height:"max-content",width:"100%",backgroundColor:"rgb(90, 180, 215)",display:"flex",flexDirection:"column",gap:"0px"}}>
-   <h1 style={{textAlign:"center",color:"white"}}>About us</h1>
+   <h1 style={{textAlign:"center",color:"white"}}>Our Status</h1>
     <div
       ref={ref}
       style={{
@@ -26,17 +26,17 @@ const About = () => {
     >
         
       <div>
-        {inView && <CountUp start={0} end={1321} duration={2} separator="," />} <span>+</span>
+        {inView && <CountUp start={0} end={1321} duration={1} separator="," />} <span>+</span>
         <p>Users</p>
       </div>
 
       <div>
-        {inView && <CountUp start={0} end={4125} duration={2} separator="," />} <span>+</span>
+        {inView && <CountUp start={0} end={4125} duration={1} separator="," />} <span>+</span>
         <p>Readers</p>
       </div>
 
       <div>
-        {inView && <CountUp start={0} end={792} duration={2.5} separator="," />} <span>+</span>
+        {inView && <CountUp start={0} end={792} duration={1} separator="," />} <span>+</span>
         <p>Projects</p>
       </div>
     </div>

@@ -25,7 +25,7 @@ const auth=useSelector((state)=>state.auth.status);
         {name:"Terms & Conditions" ,
             slug:"/terms-conditions" ,
         },
-        {name:"About" ,
+        {name:"Status" ,
             slug:"/#about" ,
         },
         {name: "Service's",
