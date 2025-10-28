@@ -2,6 +2,10 @@ body{
     margin: 0;
     padding-top: 0;
     overflow-x: hidden;
+    scrollbar-width: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 
 .nav{
@@ -49,7 +53,7 @@ gap: 10px;
 }
 
 @media (max-width:780px) {
-    body{
+    html,body{
     margin: 0;
     padding-top: 0;
     overflow-x: hidden;
