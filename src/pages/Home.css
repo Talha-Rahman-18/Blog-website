@@ -42,12 +42,11 @@
     }
     .write{
        height: 50%;
-       font-size: 12vw;
        width: 90%;
        overflow: hidden;
        text-overflow: clip;
        display: inline-block;
-       font-size: 14vw;
+       font-size: 12vw;
        
     }
     .homebtn{

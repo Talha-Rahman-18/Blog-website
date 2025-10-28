@@ -38,7 +38,6 @@ function Service() {
             <p>Imagine your business having a website that doesn’t just exist — it stands out.
 We create modern, full-stack websites built to attract customers, load fast, and work perfectly on any device.
 From smooth UI design to powerful backend systems — we handle it all.
-Let’s turn your ideas into a sleek, responsive, and result-driven website.
 You bring the vision, we’ll bring it to life.  </p>
         </div>
 
