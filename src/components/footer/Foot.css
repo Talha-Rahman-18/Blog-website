@@ -2,7 +2,7 @@
 
 
 .footcont{
-    height: 50vh;
+    height: max-content;
     width: 100vw;
     position: absolute;
     display: flex;
@@ -110,10 +110,12 @@ flex-direction: column;
     background-color: #949494;
 }
 footer{
+    height: max-content;
+    width: 100%;
     background-color: rgb(2, 18, 36);
 }
 
-@media (max-width:480px) {
+@media (max-width:780px) {
     
     .footcont{
         height: max-content;

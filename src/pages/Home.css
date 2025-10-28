@@ -29,7 +29,7 @@
 }
 
 
-@media (max-width:480px) {
+@media (max-width:780px) {
     .homecont{
         height: max-content;
         padding-bottom: 70px;

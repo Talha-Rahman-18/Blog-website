@@ -76,7 +76,7 @@
     justify-content: center;
 }
 
-@media (max-width:480px) {
+@media (max-width:780px) {
     .mainpst{
 height: max-content;
 display: flex;
