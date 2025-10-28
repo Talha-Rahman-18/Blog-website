@@ -54,6 +54,10 @@
     align-items: center;
     justify-content: center;
 }
+.error{
+    color: red;
+    font-size: 1vw;
+}
 .slct{
     height:25% ;
     width: 50%;
@@ -88,6 +92,9 @@ padding-bottom:20px ;
     .right{
         width: 90%;
         font-size: 4vw;
+    }
+    .error{
+        font-size: 3vw;
     }
     
 }

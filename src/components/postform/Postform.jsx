@@ -11,7 +11,7 @@ import Select from '../select/Select'
 
 function Postform({post}) {
 
-    const {register,handleSubmit,watch,setValue,control,getValues}=useForm({
+    const {register,handleSubmit,watch,setValue,control,getValues,formState:{errors}}=useForm({
         defaultValues:{
             tittle: post?.tittle || "",
             slug: post?.$id || "",
@@ -99,41 +99,53 @@ function Postform({post}) {
 label="Author :"
 placeholder="author"
 {...register("author",{
-    required:true
+    required:"author name is required"
 })}
 />
+
+{errors.author &&(
+    <p className='error'>*{errors.author.message}</p>
+)}
    {/* title  */}
 <Input 
 
 label="Tittle :"
 placeholder="Tittle"
 {...register("tittle",{
-    required:true
+    required:"Tittle is required"
 })}
 />
+{errors.tittle && (
+    <p className='error'>*{errors.tittle.message}</p>
+)}
 {/* slug  */}
 <Input
 
 label="Slug :"
 placeholder="Slug"
 {...register("slug",{
-    required:true
+    required:"slug name required"
 })}
 onInput={(e)=>{
     setValue("slug",slugtransform(e.currentTarget.value),{shouldValidate:true});
 }}
 />
+{errors.slug && (
+    <p className='error'>*{errors.slug.message}</p>
+)}
 {/* image  */}
 <Input 
 label="Featured Image : "
 type="file"
 accept="image/png, image/jpg, image/jpeg, image/gif"
 {...register("image",{
-    required:!post
+    required:!post? "image required" : null
 })}
 
 />
-
+{errors.image && (
+    <p className='error'>*{errors.image.message}</p>
+)}
 {/* {post && (
         <div >
             <img
