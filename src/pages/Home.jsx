@@ -16,20 +16,20 @@ import './Home.css'
 function Home() {
     const dispatch=useDispatch();
 
-  //   useEffect(()=>{
-  //   authService.getCurrentUser()
-  //   .then((userdata)=>{
-  //     if(userdata){
-  //       dispatch(login({userdata}));
+    useEffect(()=>{
+    authService.getCurrentUser()
+    .then((userdata)=>{
+      if(userdata){
+        dispatch(login({userdata}));
 
-  //     }else{
-  //       dispatch(logout());
+      }else{
+        dispatch(logout());
 
-  //     }
-  //   })
+      }
+    })
     
 
-  // },[]);
+  },[]);
 
 //type effect//
   const el = useRef(null);
