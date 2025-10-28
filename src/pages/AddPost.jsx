@@ -4,7 +4,7 @@ function AddPost() {
     return (
         
         <div className="addpost" style={{
-            height:"100%",width:"100vw",margin:"0",padding:"0"
+            height:"max-content",width:"100vw",margin:"0",padding:"0"
         }}>
             <Postform />
         </div>

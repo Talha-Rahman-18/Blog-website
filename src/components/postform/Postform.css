@@ -1,7 +1,8 @@
 
 .mainpst{
-    height: 100vh;
+    height: max-content;
     width: 100vw;
+    padding-top: 2%;
     background-color: rgb(230, 230, 230);
     display: flex;
     justify-content: space-evenly;

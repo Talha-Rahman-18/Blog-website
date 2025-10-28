@@ -6,6 +6,7 @@ body{
 .nav{
     height: 12vh;
     width: 100vw;
+    padding: 1%;
     font-family: arial;
     font-size: 1.2vw;
     background-color:rgb(255, 255, 255);
