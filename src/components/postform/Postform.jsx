@@ -16,7 +16,7 @@ function Postform({post}) {
             tittle: post?.tittle || "",
             slug: post?.$id || "",
             content: post?.content || "",
-            status: post?.status || "",
+            status: post?.status || "active",
             author:post?.author || "",
         },
     });

@@ -2,7 +2,6 @@
 .mainpst{
     height: 100vh;
     width: 100vw;
-    color: #000000;
     background-color: rgb(230, 230, 230);
     display: flex;
     justify-content: space-evenly;
